@@ -1,23 +1,5 @@
 <head>
-<style>
-body{
-    background-color: #224960;
-}
-*{
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Times New Roman';
-    font-size: 18px;
-    color: #fff;
-}
-.radius{
-    border-radius: 50%;
-    width: 20px;
-}
-.coloricons{
-    background-color: #fff;
-}
-</style>
+<link rel="stylesheet" href="main.css"> 
 </head>
 <center>
 
