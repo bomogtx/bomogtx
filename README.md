@@ -1,3 +1,4 @@
+<head>
 <style>
 body{
     background-color: #224960;
@@ -17,6 +18,7 @@ body{
     background-color: #fff;
 }
 </style>
+</head>
 <center>
 
 ### 👨🏽‍🏫 "Share your learning" 👨🏽‍💻<br>Developer, Entrepreneur and Educator
