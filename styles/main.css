@@ -18,6 +18,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
 }
 a{
     text-decoration: none;
@@ -28,20 +32,43 @@ nav ul li{
 }
 body{
     font-size: 2rem;
-    background-image: linear-gradient(to left bottom, #8fbc8f, #4b9c8a, #007984, #005474, #0f3057);
+    background-image: linear-gradient(to left bottom, rgba(143, 188, 143, 0.8), rgba(75, 156, 138, 0.8), rgba(0, 121, 132, 0.8), rgba(0, 84, 116, 0.8), rgba(15, 48, 87, 0.8)), url(../assets/lenguagessinfondo.png), url(../assets/programing.jpg);
+    background-size: cover, 25rem, cover;
+    background-position: center, bottom 50px left 50px, center;
     width: 100vw;
     overflow-x: hidden;
 }
 main{
-    min-height: calc(75vh);
-}
-img{
-    width: 50px;
-}
-.social_link_container-gighub{
-    position: relative;
-    height: 75vh;
+    min-height: calc(100vh);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+img{
+    width: 100px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--tittles-font);
+}
+.contact_options{
+    position: absolute;
+    width: 90vw;
+    height: 40vh;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10rem;
+}
+.contact_options--name_page{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact_options--principal--social_link_container{
+    display: grid;
+    grid-template: 1fr / repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 65%;
+    
 }
