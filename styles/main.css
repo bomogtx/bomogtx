@@ -1,0 +1,47 @@
+:root{
+    --text-font: 'Josefin Slab', serif;
+    --tittles-font: 'Fredericka the Great', cursive;
+    --special-font: 'Amatic SC', cursive;
+    --ulrich: #8fbc8f;
+    --aelita: #800080;
+    --odd: #4b0082;
+    --jeremy: #4169e1;
+    --yumi: #000;
+    --white: #fff;
+    --darknes: #0f3057;
+    --middle: #00587a;
+    --lowest: #008891;
+    --clear: #e7e7de;
+    font-size: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li{
+    list-style: none;
+}
+body{
+    font-size: 2rem;
+    background-image: linear-gradient(to left bottom, #8fbc8f, #4b9c8a, #007984, #005474, #0f3057);
+    width: 100vw;
+    overflow-x: hidden;
+}
+main{
+    min-height: calc(75vh);
+}
+img{
+    width: 50px;
+}
+.social_link_container-gighub{
+    position: relative;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
