@@ -32,17 +32,17 @@ nav ul li{
 }
 body{
     font-size: 2rem;
-    background-image: linear-gradient(to left bottom, rgba(143, 188, 143, 0.8), rgba(75, 156, 138, 0.8), rgba(0, 121, 132, 0.8), rgba(0, 84, 116, 0.8), rgba(15, 48, 87, 0.8)), url(../assets/lenguagessinfondo.png), url(../assets/programing.jpg);
-    background-size: cover, 25rem, cover;
-    background-position: center, bottom 50px left 50px, center;
+    background-image: url(../assets/lenguagessinfondo.png), linear-gradient(to left bottom, rgba(143, 188, 143, 0.8), rgba(75, 156, 138, 0.8), rgba(0, 121, 132, 0.8), rgba(0, 84, 116, 0.8), rgba(15, 48, 87, 0.8)), url(../assets/programing.jpg);
+    background-size: 25rem, cover, cover;
+    background-position: bottom 25px right 25px, center, center;
     width: 100vw;
     overflow-x: hidden;
 }
 main{
     min-height: calc(100vh);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
 }
 img{
     width: 100px;
@@ -56,19 +56,72 @@ h1, h2, h3, h4, h5, h6{
     height: 40vh;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 10rem;
+    align-self: center;
+    justify-self: center;
 }
 .contact_options--name_page{
-    height: 35%;
+    height: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-duration: 2.5s;
+    animation-name: soe2;
 }
 .contact_options--principal--social_link_container{
     display: grid;
     grid-template: 1fr / repeat(4, 1fr);
     justify-items: center;
     align-items: center;
-    height: 65%;
-    
+    height: 55%;
+    animation-duration: 2.5s;
+    animation-name: soe2;
 }
+.userpicture{
+    position: absolute;
+    top: -11rem;
+    left: calc(50% - 5rem);
+    border-radius: 100%;
+    animation-duration: 2.5s;
+    animation-name: topi-img;
+}
+.item2{
+    background: var(--darknes);
+    grid-column: 4 / 8;
+    grid-row: 2 / 4;
+    transform: rotate3d(1,1,1,10deg);
+    animation-duration: 2s;
+    animation-name: soe;
+    z-index: -1;
+    border-radius: 50%;
+}
+@keyframes soe {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  @keyframes topi-img {
+    from {
+      margin-bottom: 100%;
+      width: 0%
+    }
+    to {
+      margin-top: 0%;
+      width: 10rem;
+    }
+  }
+  @keyframes soe2 {
+    from {
+      margin-top: 100%;
+      width: 900%
+    }
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
