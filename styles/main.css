@@ -78,22 +78,52 @@ h1, h2, h3, h4, h5, h6{
     animation-name: soe2;
 }
 .userpicture{
-    position: absolute;
-    top: -11rem;
-    left: calc(50% - 5rem);
     border-radius: 100%;
-    animation-duration: 2.5s;
-    animation-name: topi-img;
+}
+
+.item1, .item2, .item3, .item4, .item5{
+  grid-column: 5 / 7;
+  grid-row: 2 / 4;
+  align-self: center;
+  justify-self: center;
+}
+.item1, .item2, .item3, .item4{
+  width: 100px; 
+  height: 100px;
+  animation-name: anim3;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+.item1{
+    background: var(--odd);
+    animation-delay: 0;
 }
 .item2{
-    background: var(--darknes);
-    grid-column: 4 / 8;
-    grid-row: 2 / 4;
-    transform: rotate3d(1,1,1,10deg);
-    animation-duration: 2s;
-    animation-name: soe;
-    z-index: -1;
-    border-radius: 50%;
+  background: var(--darknes);
+  animation-delay: -0.75s;
+}
+.item3{
+  background: var(--lowest);
+  animation-delay: -0.5s;
+}
+.item4{
+  background: var(--clear);
+  animation-delay: -0.25s;
+}
+.item5{
+  z-index: 2;
+}
+@keyframes anim3{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
 }
 @keyframes soe {
     from {
