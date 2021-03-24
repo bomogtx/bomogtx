@@ -1,0 +1,24 @@
+body{
+    font-size: 2rem;
+}
+main{
+    grid-template: repeat(8, 100px) / repeat(8, 100px);
+}
+.contact_options{
+    grid-column: 1 / 9;
+    grid-row: 4 / 8;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10rem;
+}
+.contact_options--name_page{
+    height: 30%;
+    display: flex;
+}
+.contact_options--principal--social_link_container{
+    grid-template: 1fr / repeat(4, 1fr);
+    height: 70%;
+}
+.item1{
+  grid-column: 4 / 6;
+  grid-row: 2 / 4;
+}
