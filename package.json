@@ -1,0 +1,29 @@
+{
+  "name": "bomogtx-web-page",
+  "version": "1.0.0",
+  "description": "David's Official Web Page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bomogtx/bomogtx.git"
+  },
+  "keywords": [
+    "David",
+    "Borrayo",
+    "bomogtx",
+    "blog",
+    "web",
+    "page",
+    "official",
+    "Guatemala"
+  ],
+  "author": "David Borrayo <davidalejandroborrayo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bomogtx/bomogtx/issues"
+  },
+  "homepage": "https://github.com/bomogtx/bomogtx#readme"
+}
