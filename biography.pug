@@ -1,0 +1,33 @@
+-var titulo = [{name: "Inicio", url: "./index.html"}, {name: "Biografía", url: "./biography.html"}];
+-var user = "UserName";
+mixin publicaciones(image, tittle, content)
+    .container
+        .container__img: img(src="image/"+image, alt="No se ve la imagen")
+        h3.container__tittle=tittle
+        p.container__text=content
+doctype html
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Biography David Borrayo
+        link(href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Fredericka+the+Great&family=Josefin+Slab:wght@300;400;700&display=swap" rel="stylesheet")
+        link(rel="stylesheet" href="styles/main.css")
+        link(rel="stylesheet" href="./styles/desktop.css" media="(min-width: 800px)")
+        link(rel="shortcut icon" href="./assets/bxmlogo.png" type="image/x-icon")
+    body
+        nav
+            ul
+                each val in titulo
+                    li
+                        a(href=val.url)= val.name
+            if user == "UserName"
+                a Hola #{user}
+            else
+                a Hola Extraño
+        h1 David Borrayo
+        main
+            p Holis esto es una prueba
+        +publicaciones("hoho.png", "Uno", "Lorem1")
+        +publicaciones("hoho1.png", "Dos", "Lorem2")
+        +publicaciones("hoho2.png", "Tres", "Lorem3")
