@@ -11,13 +11,13 @@
 </center>
 <ul>
 <li>
-I´m 23 years old
+I´m 24 years old
 </li>
 <li>
 Live in Guatemala "❤ El pais de eterna primavera ❤"
 </li>
 <li>
-👨🏽‍💼 I’m currently working on Allied Global.
+  👨🏽‍💼 I’m currently working on <a href="https://alliedglobal.com/">Allied Global <img class"radius" src="https://alliedglobal.com/assets/img/favicon.png" width="20px"></a>.
 </li>
 <li>
 📚 I'm  learning Web Development.
