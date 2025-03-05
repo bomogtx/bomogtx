@@ -17,7 +17,7 @@ I´m 27 years old
 Live in Guatemala "❤ El pais de eterna primavera ❤"
 </li>
 <li>
-  👨🏽‍💼 I’m currently working on <a href="https://alliedglobal.com/">Allied Global <img class"radius" src="https://alliedglobal.com/assets/img/favicon.png" width="20px"></a>.
+  👨🏽‍💼 I’m currently working on <a href="https://alliedglobal.com/">Allied Global <img class"radius" src="https://alliedglobal.com/wp-content/uploads/2022/07/allied-global-isotipo-2023-150x150.png" width="20px"></a>.
 </li>
 <li>
 📚 I'm  learning Web Development.
